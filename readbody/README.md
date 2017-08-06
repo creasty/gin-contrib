@@ -12,8 +12,9 @@ What
 ----
 
 ```go
+r.Use(readonly.Recorder())
 r.Use(func (c *gin.Context) {
-	body := readbody.Read(c)
+	body := readbody.Get(c)
 
 	c.Next()  // Never breaks main processes
 
