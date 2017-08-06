@@ -1,3 +1,10 @@
+DEPRECATED
+==========
+
+Take a look at https://github.com/creasty/apperrors.
+
+<details>
+
 app_error
 =========
 
@@ -49,52 +56,4 @@ func Sample(c *gin.Context) {
 }
 ```
 
-
-Reference
----------
-
-### Status codes
-
-#### 4xx
-
-- 400 BadRequest
-- 401 Unauthorized
-- 402 PaymentRequired
-- 403 Forbidden
-- 404 NotFound
-- 405 MethodNotAllowed
-- 406 NotAcceptable
-- 407 ProxyAuthRequired
-- 408 RequestTimeout
-- 409 Conflict
-- 410 Gone
-- 411 LengthRequired
-- 412 PreconditionFailed
-- 413 RequestEntityTooLarge
-- 414 RequestURITooLong
-- 415 UnsupportedMediaType
-- 416 RequestedRangeNotSatisfiable
-- 417 ExpectationFailed
-- 418 Teapot
-- 422 UnprocessableEntity
-- 423 Locked
-- 424 FailedDependency
-- 426 UpgradeRequired
-- 428 PreconditionRequired
-- 429 TooManyRequests
-- 431 RequestHeaderFieldsTooLarge
-- 451 UnavailableForLegalReasons
-
-#### 5xx
-
-- 500 InternalServerError
-- 501 NotImplemented
-- 502 BadGateway
-- 503 ServiceUnavailable
-- 504 GatewayTimeout
-- 505 HTTPVersionNotSupported
-- 506 VariantAlsoNegotiates
-- 507 InsufficientStorage
-- 508 LoopDetected
-- 510 NotExtended
-- 511 NetworkAuthenticationRequired
+</details>
